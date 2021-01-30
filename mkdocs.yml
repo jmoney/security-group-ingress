@@ -1,4 +1,5 @@
 site_name: Security Group Ingress
 theme: readthedocs
+docs_dir: documentation
 nava:
   - Home: index.md
