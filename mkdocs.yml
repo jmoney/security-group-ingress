@@ -1,0 +1,4 @@
+site_name: Security Group Ingress
+theme: readthedocs
+nava:
+  - Home: index.md
