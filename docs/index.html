@@ -89,10 +89,12 @@
               
                 <h1 id="security-group-ingress">Security Group Ingress</h1>
 <h2 id="overview">Overview</h2>
-<p>There are three components to the ingress manager.
-1. Cloudwatch Event Trigger
-2. Lambda
-3. Security Group</p>
+<p>There are three components to the ingress manager.</p>
+<ol>
+<li>Cloudwatch Event Trigger</li>
+<li>Lambda</li>
+<li>Security Group</li>
+</ol>
 <p><img alt="security-group-ingress" src="img/securitygroup-ingress.png" /></p>
 <p>The cloudwatch event trigger is exactly what one would think, it fires an event every 1 day that triggering a lambda.</p>
 <p>The lambda is a basic extract, transform, and load(ETL) process.  The extract phase extracts IPs from two sources.
@@ -146,5 +148,5 @@ authorizes them on the security group and takes the iPs to be removed and revoke
 
 <!--
 MkDocs version : 1.1.2
-Build Date UTC : 2021-01-30 18:55:38.556225+00:00
+Build Date UTC : 2021-01-30 19:05:24.424570+00:00
 -->
