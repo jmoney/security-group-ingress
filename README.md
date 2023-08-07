@@ -8,7 +8,7 @@ There are three components to the ingress manager.
 2. Lambda
 3. Security Group
 
-![security-group-ingress](img/securitygroup-ingress.png)
+![security-group-ingress](./docs/img/securitygroup-ingress.png)
 
 The cloudwatch event trigger is exactly what one would think, it fires an event every 1 day that triggering a lambda.
 

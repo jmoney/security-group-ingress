@@ -1,4 +1,0 @@
-site_name: Security Group Ingress
-theme: material
-nav:
-  - Home: index.md
